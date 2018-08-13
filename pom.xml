@@ -53,6 +53,7 @@
 			    <!-- <version>2.20.1</version>	 -->			    
 			    <!--  create testng.xml configuration in "testng" folder and configure here asd-->	
 			    <configuration>
+		          <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
 	                  <suiteXmlFiles>
 	                     <suiteXmlFile>testng/testngconfig.xml</suiteXmlFile>
 	                  </suiteXmlFiles>
